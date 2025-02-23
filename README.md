@@ -8,10 +8,6 @@ This repository contains code for benchmarking large language models for few-sho
 - [Installation](#installation)
 - [Usage](#usage)
 - [Results](#results)
-- [Contributing](#contributing)
-- [License](#license)
-- [Reference](#reference)
-
 ## Introduction
 
 This project aims to benchmark various large language models for the task of email spam detection. It includes the implementation of **Spam-T5**, a modified version of Flan-T5, which has shown significant improvements in performance.
@@ -37,11 +33,3 @@ To run the model and evaluate its performance, use the following commands:
 python run_model.py --config configs/spam_t5_config.json
 ```
 
-
-## Contributing
-
-Contributions are welcome! Please open an issue or submit a pull request for any improvements or bug fixes.
-
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
